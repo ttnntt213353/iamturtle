@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ github.com/ttnntt213353/iamturtle.git }}
+      url: ${{ /ttnntt213353/iamturtle.git }}
     runs-on: ubuntu-latest
     needs: build
     steps:
